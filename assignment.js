@@ -1,9 +1,11 @@
+// https://github.com/my-first-website4/assignment-3
+
 function kilometerTometer(num){
     var result = num * 1000;
     return result;
 }
-var fainal =kilometerTometer(10);
-console.log(fainal);
+//var fainal =kilometerTometer(10);
+//console.log(fainal);
 
 
 
@@ -11,8 +13,8 @@ function budgetCalculator(wach, mobile, laptop){
     var result=wach*50 + mobile*100 + laptop*500;
     return result;
 }
-var sum = budgetCalculator(2,2,2);
-console.log(sum);
+//var sum = budgetCalculator(2,2,2);
+//console.log(sum);
 
 
 
@@ -34,5 +36,23 @@ function hotelCost(days) {
     }
     return amount;
 }
-var totalAmount = hotelCost(21);
-console.log(totalAmount);
+//var totalAmount = hotelCost(21);
+//console.log(totalAmount);
+
+
+function megaFriend( numbers){
+    var larger =numbers[0];
+
+    for( var i =0; i< numbers.length; i++){
+        var element = numbers[i];
+        if(element> larger){
+            larger= element;
+        }
+
+
+    }
+    return larger;
+}
+//var numbers = [65, 45, 23, 11, 89, 91, 67, 61]
+//var output = megaFriend(numbers);
+//console.log('output',output);
